@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="097d187d-21e6-4d94-9bbe-3a4f6c63fc72" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/unit_test/capital_case.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unit_test/test_capital_case.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unit_test/test_simple.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unit_test/test_wallet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unit_test/wallet.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unit_test/capital_case.py" beforeDir="false" afterPath="$PROJECT_DIR$/unit_test/capital_case.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unit_test/test_capital_case.py" beforeDir="false" afterPath="$PROJECT_DIR$/unit_test/test_capital_case.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unit_test/test_simple.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,13 +26,13 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="md" value="1" />
-          <entry key="py" value="5" />
+          <entry key="py" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Markdown" value="1" />
-          <entry key="Python" value="5" />
+          <entry key="Python" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -38,14 +40,14 @@
           <entry key="Python Console" value="130" />
           <entry key="dummy" value="5" />
           <entry key="md" value="74" />
-          <entry key="py" value="918" />
+          <entry key="py" value="1936" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Markdown" value="74" />
           <entry key="PLAIN_TEXT" value="5" />
-          <entry key="Python" value="1048" />
+          <entry key="Python" value="2066" />
         </counts>
       </usages-collector>
     </session>
@@ -53,43 +55,51 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hello_world.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/unit_test/test_simple.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
-              <folding>
-                <marker date="1552710780805" expanded="true" signature="30:35" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/unit_test/capital_case.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="9" selection-start-column="9" selection-end-column="9" />
+            <state relative-caret-position="204">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
               <folding>
-                <marker date="1552712362306" expanded="true" signature="213:218" ph="..." />
+                <marker date="1552717188394" expanded="true" signature="300:305" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/unit_test/wallet.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+              <folding>
+                <marker date="1552718607728" expanded="true" signature="37:42" ph="..." />
+                <marker date="1552718607728" expanded="true" signature="70:114" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/unit_test/test_wallet.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+                <marker date="1552718506250" expanded="true" signature="186:247" ph="..." />
+                <marker date="1552718506250" expanded="true" signature="186:299" ph="..." />
+                <marker date="1552718506250" expanded="true" signature="386:469" ph="..." />
+                <marker date="1552718506250" expanded="true" signature="540:639" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/unit_test/test_capital_case.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="34">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -116,8 +126,10 @@
         <option value="$PROJECT_DIR$/hello_world.py" />
         <option value="$PROJECT_DIR$/unit_test/simple.py" />
         <option value="$PROJECT_DIR$/unit_test/test_simple.py" />
-        <option value="$PROJECT_DIR$/unit_test/capital_case.py" />
         <option value="$PROJECT_DIR$/unit_test/test_capital_case.py" />
+        <option value="$PROJECT_DIR$/unit_test/capital_case.py" />
+        <option value="$PROJECT_DIR$/unit_test/test_wallet.py" />
+        <option value="$PROJECT_DIR$/unit_test/wallet.py" />
       </list>
     </option>
   </component>
@@ -304,8 +316,8 @@
       <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
       <window_info anchor="right" id="Python Console" order="5" weight="0.42578125" />
-      <window_info active="true" anchor="right" id="Run" order="6" visible="true" weight="0.45117188" />
-      <window_info anchor="right" id="Terminal" order="7" weight="0.453125" />
+      <window_info anchor="right" id="Run" order="6" weight="0.45117188" />
+      <window_info active="true" anchor="right" id="Terminal" order="7" visible="true" weight="0.453125" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -322,6 +334,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/unit_test/test_simple.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/hello_world.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -329,32 +348,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/unit_test/test_simple.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
-          <folding>
-            <marker date="1552710780805" expanded="true" signature="30:35" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/unit_test/capital_case.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="9" selection-start-column="9" selection-end-column="9" />
+        <state relative-caret-position="204">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
           <folding>
-            <marker date="1552712362306" expanded="true" signature="213:218" ph="..." />
+            <marker date="1552717188394" expanded="true" signature="300:305" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/unit_test/test_capital_case.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="34">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unit_test/test_wallet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+            <marker date="1552718506250" expanded="true" signature="186:247" ph="..." />
+            <marker date="1552718506250" expanded="true" signature="186:299" ph="..." />
+            <marker date="1552718506250" expanded="true" signature="386:469" ph="..." />
+            <marker date="1552718506250" expanded="true" signature="540:639" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unit_test/wallet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <marker date="1552718607728" expanded="true" signature="37:42" ph="..." />
+            <marker date="1552718607728" expanded="true" signature="70:114" ph="..." />
           </folding>
         </state>
       </provider>

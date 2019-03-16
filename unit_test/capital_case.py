@@ -1,10 +1,12 @@
-def make_capital(str):
+def make_capital(x):
     '''Capitalizes the first element in a string
 
     Args:
-        str (str): a string to capitalize
+        x (str): a string to capitalize
 
     Returns:
         str (str): the arg string with the 1st element capitalized
     '''
-    return str.capitalize()
+    if not isinstance(x, str):
+        raise TypeError('Please provide a string argument')
+    return x.capitalize()
