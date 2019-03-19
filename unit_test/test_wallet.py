@@ -1,13 +1,9 @@
 import pytest
 from wallet import Wallet, Insufficient_Amount
 
-<<<<<<< HEAD
-=======
-
 def test_default_initial_amount():
     wallet = Wallet()
     assert wallet.balance == 0
->>>>>>> 5d9c743ebef1252e93467519a24b7523706cb62c
 
 @pytest.fixture
 def empty_wallet():
@@ -33,12 +29,8 @@ def test_wallet_add_cash(wallet):
     assert wallet.balance == 100
 
 
-<<<<<<< HEAD
+
 def test_wallet_spend_cash(wallet):
-=======
-def test_wallet_spend_cash():
-    wallet = Wallet(20)
->>>>>>> 5d9c743ebef1252e93467519a24b7523706cb62c
     wallet.spend_cash(10)
     assert wallet.balance == 10
 
@@ -46,10 +38,7 @@ def test_wallet_spend_cash():
 def test_wallet_spend_cash_raises_exception_on_insufficient_amount(
         empty_wallet):
     with pytest.raises(Insufficient_Amount):
-<<<<<<< HEAD
         empty_wallet.spend_cash(100)
-=======
-        wallet.spend_cash(100)
 
 
 # # Parametrized test function
@@ -79,4 +68,3 @@ def test_transactions(my_wallet, earned, spent, expected):
     my_wallet.add_cash(earned)
     my_wallet.spend_cash(spent)
     assert my_wallet.balance == expected
->>>>>>> 5d9c743ebef1252e93467519a24b7523706cb62c
