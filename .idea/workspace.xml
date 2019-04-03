@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="097d187d-21e6-4d94-9bbe-3a4f6c63fc72" name="Default Changelist" comment="">
-<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/unit_test/test_wallet.py" beforeDir="false" afterPath="$PROJECT_DIR$/unit_test/test_wallet.py" afterDir="false" />
-=======
-      <change afterPath="$PROJECT_DIR$/unit_test/rps_src/rps.py" afterDir="false" />
->>>>>>> 5d9c743ebef1252e93467519a24b7523706cb62c
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -105,8 +100,12 @@
         <entry file="file://$PROJECT_DIR$/unit_test/rps_src/rps.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="465">
+<<<<<<< HEAD
+              <caret line="31" column="25" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
+=======
               <caret line="31" column="25" lean-forward="true" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
 >>>>>>> 5d9c743ebef1252e93467519a24b7523706cb62c
+>>>>>>> ac5b23d5b595ac99669cb831f0f5d8107a22ec59
             </state>
           </provider>
         </entry>
@@ -382,20 +381,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/unit_test/capital_case.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/unit_test/wallet.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/unit_test/test_capital_case.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -425,6 +410,26 @@
       </provider>
     </entry>
 <<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/unit_test/capital_case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unit_test/wallet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unit_test/rps_src/rps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="25" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
+=======
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/unit_test/test_wallet.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -443,6 +448,7 @@
         <state relative-caret-position="465">
           <caret line="31" column="25" lean-forward="true" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
 >>>>>>> 5d9c743ebef1252e93467519a24b7523706cb62c
+>>>>>>> ac5b23d5b595ac99669cb831f0f5d8107a22ec59
         </state>
       </provider>
     </entry>
