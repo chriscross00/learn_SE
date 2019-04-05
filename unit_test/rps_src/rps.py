@@ -10,33 +10,39 @@
 #         -1:rock
 #         -2:paper
 #         -3:scissors
-#     Game
-#         -ifelse statements
-#         -p==1 and c==2:
-#             c wins
-#         -p==1 and c==3:
-#             p wins
-#         -p==2 and c==3:
-#             c wins
-#         -p==2 and c==1:
-#             p wins
-#         -p==3 and c==2:
-#             p wins
-#         -p==3 and c==1:
-#             c wins
-#         -p==c:
-#             draw
+#	Game
+#		- Computer wins: {-1, 2}
+#		- Person wins: {-2, 1}
+#		- Draw: {0}
+
 
 rps_dict = {1: 'Rock', 2: 'Paper', 3: 'Scissors'}
 
-print(rps_dict.keys()[2])
-
 def player_choice():
-    player = input('Please choose your weapon:'
-                   '\nRock: 1'
-                   '\nPaper: 2'
-                   '\nScissors: 3'
-                   
-                   '\ntest:')
-    return print('Your weapon is:', player)
+	player = int(input('\nPlease choose your weapon:'
+				   '\nRock: 1'
+				   '\nPaper: 2'
+				   '\nScissors:3'
+				   '\ntest: '))
+	if player in rps_dict:
+		return player
+		print('Your weapon is: ',rps_dict[player])
+	else:
+		print('Please choose one of the weapons\n')
+		player_choice()
+		
+def game(player, computer):
+
+	diff = player - computer
+	
+	if diff in [-2, 1]:
+		print('Player wins!')
+	elif diff in [-1, 2]:
+		print('Computer wins!')
+	else:
+		print('Draw!')
+		
+
+if name == __main__:
+	player_choice()
 
