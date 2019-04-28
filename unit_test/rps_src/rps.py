@@ -15,34 +15,37 @@
 #		- Person wins: {-2, 1}
 #		- Draw: {0}
 
+import random
 
-rps_dict = {1: 'Rock', 2: 'Paper', 3: 'Scissors'}
+rps_dict = {'Rock': 1, 'Paper': 2, 'Scissors': 3}
+
 
 def player_choice():
-	player = int(input('\nPlease choose your weapon:'
-				   '\nRock: 1'
-				   '\nPaper: 2'
-				   '\nScissors:3'
-				   '\ntest: '))
+	player = input('\nPlease choose your weapon:'
+				   '\nRock'
+				   '\nPaper'
+				   '\nScissors'
+				   '\nPlayer: ')
 	if player in rps_dict:
 		return player
-		print('Your weapon is: ',rps_dict[player])
 	else:
 		print('Please choose one of the weapons\n')
 		player_choice()
-		
-def game(player, computer):
 
-	diff = player - computer
-	
+def game(player):
+
+	computer = random.choice(list(rps_dict.keys()))
+	diff = rps_dict[player] - rps_dict[computer]
+
+	print('\n\nComputer chose', computer)
 	if diff in [-2, 1]:
 		print('Player wins!')
 	elif diff in [-1, 2]:
 		print('Computer wins!')
 	else:
 		print('Draw!')
-		
 
-if name == __main__:
-	player_choice()
+def play_game():
+	game(player_choice())
 
+play_game()
