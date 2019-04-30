@@ -32,6 +32,7 @@ def player_choice():
 		print('Please choose one of the weapons\n')
 		player_choice()
 
+
 def game(player):
 
 	computer = random.choice(list(rps_dict.keys()))
@@ -45,7 +46,6 @@ def game(player):
 	else:
 		print('Draw!')
 
+
 def play_game():
 	game(player_choice())
-
-play_game()
