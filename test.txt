@@ -2,4 +2,4 @@ hello world!
 
 do not be afraid. this is just a test.
 
-new line
+I deleted a line.
