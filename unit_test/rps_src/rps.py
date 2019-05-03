@@ -21,31 +21,33 @@ rps_dict = {'Rock': 1, 'Paper': 2, 'Scissors': 3}
 
 
 def player_choice():
-	player = input('\nPlease choose your weapon:'
+    player = input('\nPlease choose your weapon:'
 				   '\nRock'
 				   '\nPaper'
 				   '\nScissors'
 				   '\nPlayer: ')
-	if player in rps_dict:
-		return player
-	else:
-		print('Please choose one of the weapons\n')
-		player_choice()
+    if player in rps_dict:
+        return player
+    else:
+        print('Please choose one of the weapons\n')
+        player_choice()
 
+a = player_choice()
 
 def game(player):
 
-	computer = random.choice(list(rps_dict.keys()))
-	diff = rps_dict[player] - rps_dict[computer]
+    computer = random.choice(list(rps_dict.keys()))
+    diff = rps_dict[player] - rps_dict[computer]
 
-	print('\n\nComputer chose', computer)
-	if diff in [-2, 1]:
-		print('Player wins!')
-	elif diff in [-1, 2]:
-		print('Computer wins!')
-	else:
-		print('Draw!')
+    print('\n\nComputer chose', computer)
+
+    if diff in [-2, 1]:
+        print('Player wins!')
+    elif diff in [-1, 2]:
+        print('Computer wins!')
+    else:
+        print('Draw!')
 
 
 def play_game():
-	game(player_choice())
+    game(player_choice())
