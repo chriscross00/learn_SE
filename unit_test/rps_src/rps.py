@@ -32,7 +32,8 @@ def player_choice():
         print('Please choose one of the weapons\n')
         player_choice()
 
-a = player_choice()
+#a = player_choice()
+#print(a)
 
 def game(player):
 
@@ -48,6 +49,5 @@ def game(player):
     else:
         print('Draw!')
 
-
-def play_game():
+if __name__ == '__main__':
     game(player_choice())
