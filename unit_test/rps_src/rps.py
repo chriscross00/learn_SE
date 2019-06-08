@@ -47,5 +47,5 @@ def game(player):
 		print('Draw!')
 
 
-def play_game():
+if __name__ == '__main__':
 	game(player_choice())
