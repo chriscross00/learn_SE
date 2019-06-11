@@ -50,4 +50,8 @@ def game(player):
         print('Draw!')
 
 if __name__ == '__main__':
+<<<<<<< HEAD
     game(player_choice())
+=======
+	game(player_choice())
+>>>>>>> c61fa86e489a4d6c62e61e8d4c12c26d9c0c9045
