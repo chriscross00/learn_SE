@@ -1,21 +1,11 @@
 # Create a rock paper scissors game that you can play against a computer.
 
-# Requirements:
-#     Create dict of rps
-#     Human input
-#         -Ask for input from player
-#         -Convert string to int
-#     Computer choice
-#         -randomly choice between 1-3
-#         -1:rock
-#         -2:paper
-#         -3:scissors
-#	Game
-#		- Computer wins: {-1, 2}
-#		- Person wins: {-2, 1}
-#		- Draw: {0}
-
+import logging
 import random
+
+
+logging.basicConfig(filename='rps.log', level=logging.DEBUG,
+					format='%(asctime)s:%(levelname)s:%(message)s')
 
 rps_dict = {'Rock': 1, 'Paper': 2, 'Scissors': 3}
 
@@ -41,10 +31,13 @@ def game(player):
 	print('\n\nComputer chose', computer)
 	if diff in [-2, 1]:
 		print('Player wins!')
+		logging.debug('Player')
 	elif diff in [-1, 2]:
 		print('Computer wins!')
+		logging.debug('Computer')
 	else:
 		print('Draw!')
+		logging.debug('Draw')
 
 
 if __name__ == '__main__':

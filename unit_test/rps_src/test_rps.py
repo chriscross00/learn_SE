@@ -13,6 +13,7 @@ def test_valid_player_choice(monkeypatch):
     monkeypatch.setattr('builtins.input', lambda x: 'Rock')
     assert rps.player_choice() == 'Rock'
 
+
 # Not sure how to test the game, research
 def test_game(monkeypatch):
 
