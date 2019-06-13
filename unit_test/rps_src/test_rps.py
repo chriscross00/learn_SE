@@ -3,6 +3,7 @@ import rps
 
 from random import Random
 
+
 def test_game_dict():
     assert list(rps.rps_dict.keys())[0] == 'Rock'
     assert list(rps.rps_dict.keys())[1] == 'Paper'
