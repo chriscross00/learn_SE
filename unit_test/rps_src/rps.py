@@ -49,4 +49,4 @@ def game(player):
         print('Draw!')
 
 if __name__ == '__main__':
-	game(player_choice())
+    game(player_choice())
