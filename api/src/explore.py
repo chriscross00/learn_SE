@@ -13,6 +13,7 @@ TO_PHONE = os.environ.get('TO_PHONE')
 
 client = Client(TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOKEN)
 
+""""
 message = client.messages.create(
     body = 'This is from a python api call',
     from_ = FROM_PHONE,
@@ -20,3 +21,7 @@ message = client.messages.create(
 )
 
 print(message.sid)
+"""
+
+for msg in client.messages.list():
+    print(msg.body)
